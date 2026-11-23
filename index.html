@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Drukarnia internetowa Drukujesie.pl - ulotki, wizytówki, kalendarze, rollupy</title>
+<meta name="description" content="Drukarnia internetowa z darmową dostawą w Polsce. Ulotki, wizytówki, kalendarze 2027, rollupy, folie i kostki mikrofonowe. Cena i termin wysyłki od razu przy wyborze nakładu.">
+<meta name="theme-color" content="#003046">
+<link rel="preload" href="fonts/saira-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/archivo-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-m-800.webp" imagesrcset="img/hero-m-800.webp 800w, img/hero-m-1200.webp 1200w" imagesizes="100vw" media="(max-width:760px)">
+<link rel="preload" as="image" href="img/hero-1920.webp" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w" imagesizes="100vw" media="(min-width:761px)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23003046'/%3E%3Cpath d='M20 16h12c11 0 18 7 18 16s-7 16-18 16H20zm8 7v18h4c6 0 10-4 10-9s-4-9-10-9z' fill='%230076CD'/%3E%3Ccircle cx='50' cy='12' r='4' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Cpath d='M9 49l6 6M15 49l-6 6' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:"Saira";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/saira-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Saira";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/saira-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2026}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--nieb:#0076CD;--nieb2:#0063AD;--gran:#003046;--gran2:#0A3D57;--ziel:#25D466;--szary:#F1F3F5;--tlo-prod:#EFEFEF;--tekst:#14222B;--tekst2:#4A5863;--linia:#DDE3E8;--wrap:min(92vw,1720px);--hh:72px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--tekst);font:16px/1.6 "Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:"Saira",system-ui,sans-serif;line-height:1.08;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.2vw,52px);font-weight:750;color:var(--gran)}
+h3{font-size:20px;font-weight:700}
+p{margin:0}
+.wrap{width:var(--wrap);margin:0 auto}
+.skip{position:absolute;left:-999px}
+/* znaczniki z litery D: kółko w prawym górnym rogu, krzyżyk w lewym dolnym */
+.zn{position:relative}
+.zn::before,.zn::after{content:"";position:absolute;width:12px;height:12px;pointer-events:none;z-index:2}
+.zn::before{top:-6px;right:-6px;border:2px solid var(--nieb);border-radius:50%;background:#fff}
+.zn::after{bottom:-6px;left:-6px;background:linear-gradient(45deg,transparent 42%,var(--gran) 42% 58%,transparent 58%),linear-gradient(-45deg,transparent 42%,var(--gran) 42% 58%,transparent 58%)}
+.zn.jasny::before{background:transparent;border-color:#fff}
+.zn.jasny::after{background:linear-gradient(45deg,transparent 42%,#fff 42% 58%,transparent 58%),linear-gradient(-45deg,transparent 42%,#fff 42% 58%,transparent 58%)}
+/* nagłówek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{height:calc(var(--hh) - 1px);display:flex;align-items:center;gap:28px}
+.logo{display:block;flex:none;text-decoration:none}
+.logo svg{display:block;height:38px;width:auto}
+.menu{display:flex;gap:4px;margin-left:auto}
+.menu a{text-decoration:none;font-weight:600;font-size:15.5px;padding:10px 12px;border-radius:6px;color:var(--gran)}
+.menu a:hover{background:var(--szary)}
+.menu a[aria-current]{color:var(--nieb);box-shadow:inset 0 -2px 0 var(--nieb);border-radius:0}
+.top-tel{display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;color:var(--gran);white-space:nowrap}
+.top-tel svg,.kosz svg{width:22px;height:22px;flex:none}
+.kosz{position:relative;display:flex;align-items:center;justify-content:center;height:44px;padding:0 16px;border-radius:4px;background:var(--gran);color:#fff;text-decoration:none;font:700 15px/1 "Saira",sans-serif}
+.kosz span{position:absolute;top:-6px;right:-6px;background:var(--ziel);color:var(--gran);font:700 11px/18px "Archivo",sans-serif;min-width:18px;height:18px;border-radius:9px;text-align:center}
+.burger{display:none;margin-left:auto;width:44px;height:44px;border:0;background:none;padding:10px;cursor:pointer}
+.burger i{display:block;height:2px;background:var(--gran);margin:5px 0;transition:transform .2s}
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;color:#fff;background:var(--gran);overflow:hidden}
+.hero-foto{position:absolute;inset:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:50% 62%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,48,70,.96) 0%,rgba(0,48,70,.9) 30%,rgba(0,48,70,.55) 52%,rgba(0,48,70,.08) 74%,rgba(0,48,70,0) 100%)}
+.hero-in{position:relative;width:var(--wrap);margin:0 auto;padding:56px 0}
+.hero-tekst{max-width:min(720px,52vw)}
+.hero h1{font-size:clamp(40px,4.3vw,76px);font-weight:780;line-height:1.02}
+.hero h1 span{display:block;font-size:.5em;font-weight:600;line-height:1.2;margin-bottom:.45em;color:#BFE0F7;letter-spacing:0}
+.hero-lead{font-size:clamp(17px,1.25vw,21px);line-height:1.55;margin-top:22px;color:#DCE8EF;max-width:600px}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--nieb);color:#fff;text-decoration:none;font:700 17px/1 "Saira",sans-serif;letter-spacing:.01em;padding:18px 26px;border-radius:4px;border:0;cursor:pointer;transition:background .15s}
+.btn:hover{background:var(--nieb2)}
+.btn svg{width:18px;height:18px}
+.hero-info{font-size:15px;color:#C5D6E0;line-height:1.5}
+.hero-info b{color:#fff}
+.dostawa{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:#fff}
+.dostawa i{width:10px;height:10px;border-radius:50%;background:var(--ziel);flex:none}
+/* sekcje */
+section{scroll-margin-top:var(--hh)}
+.sek{padding:clamp(64px,7vw,112px) 0}
+.szara{background:var(--szary)}
+.glowa{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 40px;margin-bottom:clamp(30px,3vw,48px)}
+.glowa p{max-width:620px;color:var(--tekst2);font-size:17.5px}
+/* produkty */
+.siatka{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px}
+.prod{display:flex;flex-direction:column;text-decoration:none;background:#fff;border:1px solid var(--linia);transition:border-color .15s,transform .15s}
+.prod:hover{border-color:var(--nieb);transform:translateY(-2px)}
+.prod figure{margin:0;background:var(--tlo-prod);aspect-ratio:1/1;overflow:hidden}
+.prod figure img{width:100%;height:100%;object-fit:cover}
+.prod-op{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.prod h3{color:var(--gran);font-size:19px}
+.prod p{font-size:14.5px;color:var(--tekst2);line-height:1.45}
+.cena{margin-top:auto;padding-top:10px;font-size:14px;color:var(--tekst2)}
+.cena b{font:750 21px/1 "Saira",sans-serif;color:var(--nieb)}
+.przyp{margin-top:22px;font-size:14px;color:var(--tekst2)}
+.wiecej{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.wiecej a{text-decoration:none;border:1px solid var(--linia);background:#fff;padding:10px 14px;font-size:15px;font-weight:600;color:var(--gran);border-radius:4px}
+.wiecej a:hover{border-color:var(--nieb);color:var(--nieb)}
+/* kalendarze */
+.kal{background:var(--gran);color:#fff}
+.kal h2{color:#fff}
+.kal-uk{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,88px);align-items:center}
+.kal-tekst p{color:#C9D9E3;font-size:17.5px;margin-top:20px;max-width:560px}
+.lista{list-style:none;padding:0;margin:26px 0 34px;display:grid;gap:12px}
+.lista li{position:relative;padding-left:30px;color:#E4EEF4}
+.lista li::before{content:"";position:absolute;left:0;top:.42em;width:10px;height:10px;border:2px solid var(--nieb);border-radius:50%}
+.lista.ciemna li{color:var(--tekst)}
+.kal-sw{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.kal-k{background:#fff;color:var(--gran);text-decoration:none;display:flex;flex-direction:column}
+.kal-k figure{margin:0;background:var(--tlo-prod);aspect-ratio:3/4;overflow:hidden}
+.kal-k figure img{width:100%;height:100%;object-fit:cover}
+.kal-k div{padding:12px 14px 14px;font:700 16px/1.25 "Saira",sans-serif}
+.kal-k small{display:block;font:500 13.5px/1.4 "Archivo",sans-serif;color:var(--tekst2);margin-top:4px}
+/* jak zamówić */
+.zam{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(32px,5vw,96px);align-items:start}
+.zam-tekst p{color:var(--tekst2);font-size:17.5px;margin-top:18px;max-width:600px}
+.kroki{margin:28px 0 0;padding:0;list-style:none;display:grid;gap:18px;max-width:600px}
+.kroki li{display:grid;grid-template-columns:28px 1fr;gap:14px;align-items:start}
+.kroki li::before{content:"";width:12px;height:12px;margin-top:7px;border:2px solid var(--nieb);border-radius:50%}
+.kroki li:last-child::before{border:0;border-radius:0;background:linear-gradient(45deg,transparent 40%,var(--gran) 40% 60%,transparent 60%),linear-gradient(-45deg,transparent 40%,var(--gran) 40% 60%,transparent 60%)}
+.kroki b{display:block;font-family:"Saira",sans-serif;color:var(--gran);font-size:18px}
+.kroki span{color:var(--tekst2)}
+.konf{background:#fff;border:1px solid var(--linia);padding:clamp(20px,2.4vw,34px)}
+.konf h3{color:var(--gran);font-size:22px}
+.konf-par{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}
+.konf-par span{font-size:13.5px;background:var(--szary);padding:6px 10px;border-radius:3px;color:var(--gran)}
+.nak{width:100%;border-collapse:collapse;font-size:15.5px}
+.nak th{text-align:left;font-weight:600;color:var(--tekst2);font-size:13.5px;padding:0 12px 8px}
+.nak th:last-child,.nak td:last-child{text-align:right}
+.nak td{padding:0}
+.nak label{display:flex;justify-content:space-between;padding:11px 12px;border:1px solid var(--linia);margin-top:-1px;cursor:pointer}
+.nak input{position:absolute;opacity:0;pointer-events:none}
+.nak tr:has(input:checked) label{border-color:var(--nieb);background:#EAF4FC;position:relative;z-index:1}
+.nak tr:has(input:focus-visible) label{outline:2px solid var(--nieb);outline-offset:1px}
+.nak label b{color:var(--gran)}
+.suma{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 20px;margin-top:20px;padding-top:18px;border-top:1px solid var(--linia)}
+.suma div{font-size:14.5px;color:var(--tekst2)}
+.suma strong{display:block;font:780 30px/1.1 "Saira",sans-serif;color:var(--gran)}
+.konf small{display:block;margin-top:14px;font-size:13px;color:var(--tekst2)}
+/* kostki */
+.kostki{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(32px,4vw,72px);align-items:center}
+.kostki figure{margin:0;overflow:hidden}
+.kostki figure img{width:100%;height:auto}
+.kostki-t p{color:var(--tekst2);font-size:17.5px;margin-top:18px}
+.cyt{margin-top:26px;padding:18px 20px;background:var(--szary);font-size:15.5px}
+.cyt b{display:block;margin-top:8px;font-size:14px;color:var(--gran)}
+/* b2b */
+.b2b{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,96px);align-items:start}
+.b2b-l p{color:var(--tekst2);font-size:17.5px;margin-top:18px}
+.b2b-g{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--linia)}
+.b2b-g div{padding:22px 24px 22px 0;border-bottom:1px solid var(--linia)}
+.b2b-g div:nth-child(odd){padding-right:28px;border-right:1px solid var(--linia)}
+.b2b-g div:nth-child(even){padding-left:28px}
+.b2b-g h3{color:var(--gran);font-size:19px}
+.b2b-g p{color:var(--tekst2);font-size:15px;margin-top:6px}
+/* opinie */
+.pas{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 12px 18px;margin:0 -12px;scroll-padding-left:12px;scrollbar-width:thin;cursor:grab;-webkit-overflow-scrolling:touch}
+.pas.ciag{cursor:grabbing;scroll-snap-type:none}
+.pas::-webkit-scrollbar{height:6px}.pas::-webkit-scrollbar-thumb{background:#C5CFD6;border-radius:3px}
+.op{flex:0 0 clamp(270px,26vw,400px);scroll-snap-align:start;background:#fff;border:1px solid var(--linia);padding:24px 24px 22px;display:flex;flex-direction:column;gap:14px;user-select:none}
+.op p{font-size:16px;line-height:1.55}
+.op div{margin-top:auto;font-size:14px;color:var(--tekst2)}
+.op div b{display:block;color:var(--gran);font-size:15.5px}
+.gw{color:#F4B400;letter-spacing:2px;font-size:15px}
+.strz{display:flex;gap:8px}
+.strz button{width:46px;height:46px;border:1px solid var(--linia);background:#fff;cursor:pointer;color:var(--gran);display:flex;align-items:center;justify-content:center}
+.strz button:hover{border-color:var(--nieb);color:var(--nieb)}
+.strz svg{width:18px;height:18px}
+/* kontakt */
+.kon{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,4vw,72px)}
+.kon-dane{display:grid;gap:22px;margin-top:26px}
+.kon-dane div{font-size:16.5px}
+.kon-dane small{display:block;font-size:13.5px;color:var(--tekst2);margin-bottom:2px}
+.kon-dane a{font:700 22px/1.2 "Saira",sans-serif;color:var(--gran);text-decoration:none}
+.kon-dane a:hover{color:var(--nieb)}
+.mapa{margin-top:28px;aspect-ratio:16/10;background:var(--szary);border:1px solid var(--linia)}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+.form{background:#fff;border:1px solid var(--linia);padding:clamp(20px,2.6vw,40px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.form h3{grid-column:1/-1;color:var(--gran);font-size:24px}
+.form label{display:grid;gap:6px;font-size:14px;font-weight:600;color:var(--gran)}
+.form .pel{grid-column:1/-1}
+.form input,.form textarea,.form select{font:inherit;font-size:16px;padding:13px 14px;border:1px solid #C8D2D9;border-radius:3px;background:#fff;color:var(--tekst);width:100%}
+.form textarea{min-height:130px;resize:vertical}
+.form input:focus,.form textarea:focus,.form select:focus{outline:2px solid var(--nieb);outline-offset:0;border-color:var(--nieb)}
+.form .zgoda{grid-column:1/-1;display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:13.5px;color:var(--tekst2)}
+.form .zgoda input{width:18px;height:18px;margin-top:2px;flex:none}
+.form .btn{justify-self:start}
+.form .info{grid-column:1/-1;font-size:13.5px;color:var(--tekst2)}
+/* stopka */
+.stopka{background:#062433;color:#AFC2CD;padding:56px 0 28px;font-size:15px}
+.st-g{display:grid;grid-template-columns:minmax(0,4fr) repeat(3,minmax(0,2fr));gap:32px}
+.stopka h4{margin:0 0 12px;font:700 16px/1.2 "Saira",sans-serif;color:#fff}
+.stopka ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka .logo svg{height:34px}
+.st-dol{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px;margin-top:44px;padding-top:22px;border-top:1px solid #1C3D4E;font-size:14px}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+/* tablet i telefon */
+@media (max-width:1500px){.siatka{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:1180px){
+ .menu,.top-tel span{display:none}
+ .burger{display:block;margin-left:0}
+ .top-tel{margin-left:auto}
+ .menu.otw{display:flex;position:fixed;top:var(--hh);left:0;right:0;bottom:0;flex-direction:column;background:#fff;padding:18px 4vw;gap:0;overflow:auto}
+ .menu.otw a{font:700 22px/1.2 "Saira",sans-serif;padding:16px 4px;border-bottom:1px solid var(--linia);border-radius:0;box-shadow:none}
+ .burger[aria-expanded=true] i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+ .burger[aria-expanded=true] i:nth-child(2){opacity:0}
+ .burger[aria-expanded=true] i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+ .siatka{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .kal-uk,.zam,.kostki,.b2b,.kon{grid-template-columns:minmax(0,1fr)}
+ .hero-tekst{max-width:640px}
+ .st-g{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .st-g>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+ :root{--hh:62px;--wrap:calc(100vw - 36px)}
+ .logo svg{height:31px}
+ .top .wrap{gap:10px}
+ .top-tel{width:44px;height:44px;justify-content:center;border:1px solid var(--linia);border-radius:8px}
+ .kosz{display:none}
+ .hero{flex-direction:column;align-items:stretch;min-height:calc(100svh - var(--hh))}
+ .hero-foto{position:relative;inset:auto;flex:1 1 0;min-height:min(46vw,24svh);max-height:44svh;align-self:stretch;width:100%}
+ .hero-foto img{position:absolute;inset:0;object-position:55% 50%}
+ .hero-foto::after{background:linear-gradient(180deg,rgba(0,48,70,0) 55%,rgba(0,48,70,.85) 92%,var(--gran) 100%)}
+ .hero-in{flex:0 0 auto;padding:6px 0 max(22px,3svh)}
+ .hero-tekst{max-width:none}
+ .hero h1{font-size:clamp(29px,min(8.4vw,5.2svh),40px)}
+ .hero h1 span{font-size:clamp(16px,min(4.4vw,2.7svh),20px);margin-bottom:.4em}
+ .hero-lead{font-size:clamp(15px,min(4.1vw,2.35svh),17px);margin-top:min(14px,1.8svh)}
+ .hero-cta{margin-top:max(24px,3svh);gap:12px}
+ .btn{padding:16px 22px;font-size:16.5px}
+ .hero-info{font-size:13.5px}
+ .siatka{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px;padding:10px 12px 14px;margin:0 -12px;scroll-padding-left:12px;-webkit-overflow-scrolling:touch}
+ .siatka .prod{flex:0 0 68vw;scroll-snap-align:start}
+ .kal-sw{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding:10px 12px;margin:0 -12px;scroll-padding-left:12px}
+ .kal-k{flex:0 0 46vw;scroll-snap-align:start}
+ .b2b-g{grid-template-columns:minmax(0,1fr)}
+ .b2b-g div,.b2b-g div:nth-child(odd),.b2b-g div:nth-child(even){padding:18px 0;border-right:0}
+ .op{flex:0 0 82vw}
+ .form{grid-template-columns:minmax(0,1fr)}
+ .st-g{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px}
+ .glowa p{font-size:16.5px}
+}
+@media (max-height:520px) and (max-width:760px){.hero-foto{display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#produkty">Przejdź do oferty</a>
+<header class="top">
+ <div class="wrap">
+  <a class="logo" href="#" aria-label="Drukujesie.pl - strona główna">
+   <svg viewBox="0 0 250 52" role="img" aria-hidden="true"><text x="9" y="40" font-family="Saira, sans-serif" font-weight="800" font-size="42" letter-spacing="-1.2" fill="#0076CD">Drukuje<tspan fill="#003046">sie</tspan></text><circle cx="35" cy="7.5" r="4.2" fill="none" stroke="#003046" stroke-width="2.4"/><path d="M2.5 40.5l6 6M8.5 40.5l-6 6" stroke="#003046" stroke-width="2.6" stroke-linecap="round"/></svg>
+  </a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#produkty" aria-current="page">Produkty</a>
+   <a href="#kalendarze">Kalendarze 2027</a>
+   <a href="#zamowienie">Jak zamówić</a>
+   <a href="#b2b">Dla agencji</a>
+   <a href="#opinie">Opinie</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="top-tel" href="tel:+48731977433" aria-label="Zadzwoń: +48 731 977 433"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M7 3h3l1.6 4.4-2.2 1.4a11 11 0 0 0 5.8 5.8l1.4-2.2L21 14v3a3 3 0 0 1-3 3A15 15 0 0 1 4 6a3 3 0 0 1 3-3z"/></svg><span>+48 731 977 433</span></a>
+  <a class="kosz" href="#produkty" aria-label="Koszyk, 0 produktów">Koszyk<span>0</span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+ <div class="hero-foto">
+  <picture>
+   <source media="(max-width:760px)" srcset="img/hero-m-800.webp 800w, img/hero-m-1200.webp 1200w" sizes="100vw">
+   <img src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w" sizes="100vw" width="1920" height="1280" alt="Arkusz papieru przechodzący przez maszynę drukarską" fetchpriority="high" decoding="async">
+  </picture>
+ </div>
+ <div class="hero-in">
+  <div class="hero-tekst">
+   <h1 id="h1"><span>Drukarnia internetowa Drukujesie.pl</span>Wgrywasz plik, reszta drukuje się sama</h1>
+   <p class="hero-lead">Ulotki, wizytówki, kalendarze 2027, rollupy, folie i kostki mikrofonowe. Cenę i termin wysyłki widać od razu przy wyborze nakładu, a dostawa w całej Polsce jest darmowa.</p>
+   <div class="hero-cta">
+    <a class="btn" href="#produkty">Wybierz produkt <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 10h11M11 5l5 5-5 5"/></svg></a>
+    <p class="hero-info"><span class="dostawa"><i></i>Darmowa dostawa</span><br>biuro obsługi 8:00-15:00, <b>+48 731 977 433</b></p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sek" id="produkty" aria-labelledby="h-prod">
+ <div class="wrap">
+  <div class="glowa">
+   <h2 id="h-prod">Co drukujemy</h2>
+   <p>Wybierasz produkt i parametry, a cennik od razu pokazuje cenę za każdy nakład i termin wysyłki. Jeśli nie masz projektu, przygotuje go nasz grafik.</p>
+  </div>
+  <div class="siatka" id="siatka">
+   <a class="prod zn" href="#kontakt"><figure><img src="img/ulotki-420.webp" srcset="img/ulotki-420.webp 420w, img/ulotki-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Ulotki reklamowe" draggable="false"></figure><div class="prod-op"><h3>Ulotki reklamowe</h3><p>A6, A5, A4, A3 lub format własny, kreda 350 g</p><div class="cena">od <b>62,68 zł</b> brutto / 50 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/wizytowki-420.webp" srcset="img/wizytowki-420.webp 420w, img/wizytowki-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Wizytówki" draggable="false"></figure><div class="prod-op"><h3>Wizytówki</h3><p>standardowe i premium z folią anti scratch i lakierem UV 3D</p><div class="cena">od <b>37,79 zł</b> brutto / 50 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/kalendarz-trojdzielny-420.webp" srcset="img/kalendarz-trojdzielny-420.webp 420w, img/kalendarz-trojdzielny-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Kalendarze trójdzielne LUX" draggable="false"></figure><div class="prod-op"><h3>Kalendarze trójdzielne LUX</h3><p>z wypukłą główką, folia błysk lub mat</p><div class="cena">od <b>218,32 zł</b> brutto / 10 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/rollup-420.webp" srcset="img/rollup-420.webp 420w, img/rollup-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Rollupy" draggable="false"></figure><div class="prod-op"><h3>Rollupy</h3><p>85x200 cm, blockout 240 g, kaseta 2 kg</p><div class="cena">od <b>313,86 zł</b> brutto / 1 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/kostka-420.webp" srcset="img/kostka-420.webp 420w, img/kostka-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Kostki mikrofonowe" draggable="false"></figure><div class="prod-op"><h3>Kostki mikrofonowe</h3><p>własna produkcja, dowolny rozmiar i kolor</p><div class="cena">od <b>121,77 zł</b> brutto / 1 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/notesy-420.webp" srcset="img/notesy-420.webp 420w, img/notesy-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Notesy z okładką" draggable="false"></figure><div class="prod-op"><h3>Notesy z okładką</h3><p>A4, A5, A6, DL, klejone, 25 kart i więcej</p><div class="cena">od <b>353,12 zł</b> brutto / 50 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/flagi-420.webp" srcset="img/flagi-420.webp 420w, img/flagi-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Flagi reklamowe" draggable="false"></figure><div class="prod-op"><h3>Flagi reklamowe</h3><p>poliester 115 g, grafika 75x290 cm</p><div class="cena">od <b>565,68 zł</b> brutto / 1 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/tablice-420.webp" srcset="img/tablice-420.webp 420w, img/tablice-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Tablice PCV" draggable="false"></figure><div class="prod-op"><h3>Tablice PCV</h3><p>druk UV na płycie 3 mm, dowolny format</p><div class="cena">od <b>91,06 zł</b> brutto / 1 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/folie-420.webp" srcset="img/folie-420.webp 420w, img/folie-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Folia ploterowa" draggable="false"></figure><div class="prod-op"><h3>Folia ploterowa</h3><p>samoprzylepna, nacinana, wiele kolorów</p><div class="cena">od <b>64,57 zł</b> brutto / 1 szt.</div></div></a>
+   <a class="prod zn" href="#kontakt"><figure><img src="img/kalendarz-ksiazkowy-420.webp" srcset="img/kalendarz-ksiazkowy-420.webp 420w, img/kalendarz-ksiazkowy-800.webp 800w" sizes="(max-width:760px) 68vw, (max-width:1180px) 30vw, (max-width:1500px) 22vw, 18vw" width="420" height="420" loading="lazy" decoding="async" alt="Kalendarze książkowe" draggable="false"></figure><div class="prod-op"><h3>Kalendarze książkowe</h3><p>z logo firmy na okładce</p><div class="cena">cena po wyborze parametrów</div></div></a>
+  </div>
+  <p class="przyp">Ceny brutto przy najmniejszym nakładzie i podstawowych parametrach, z cennika sklepu z 23.11.2026.</p>
+  <div class="wiecej" aria-label="Pozostałe produkty">
+   <a href="#kontakt">Ulotki składane</a><a href="#kontakt">Plakaty wielkoformatowe</a><a href="#kontakt">Billboardy</a><a href="#kontakt">Folia OWV</a><a href="#kontakt">Folie monomeryczne</a><a href="#kontakt">Folia szroniona</a><a href="#kontakt">Folia samochodowa</a><a href="#kontakt">Windery</a><a href="#kontakt">Długopisy z grawerem</a>
+  </div>
+ </div>
+</section>
+
+<section class="sek kal" id="kalendarze" aria-labelledby="h-kal">
+ <div class="wrap kal-uk">
+  <div class="kal-tekst">
+   <h2 id="h-kal">Kalendarze firmowe na 2027 rok</h2>
+   <p>Kalendarz z logo wisi u klienta przez cały rok. Drukujemy trójdzielne i jednodzielne z wypukłą główką, książkowe i spiralowane, w wersji LUX i ekonomicznej.</p>
+   <ul class="lista">
+    <li>główka z efektem wypukłości, kreda 250 g, folia błysk albo mat</li>
+    <li>kalendarium standardowe lub międzynarodowe, okienko w wybranym kolorze</li>
+    <li>trójdzielne LUX od 218,32 zł brutto za 10 sztuk</li>
+    <li>projekt możemy przygotować za Ciebie</li>
+   </ul>
+   <a class="btn" href="#kontakt">Zamów kalendarze <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 10h11M11 5l5 5-5 5"/></svg></a>
+  </div>
+  <div class="kal-sw">
+   <a class="kal-k zn jasny" href="#kontakt"><figure><img src="img/kalendarz-trojdzielny-420.webp" srcset="img/kalendarz-trojdzielny-420.webp 420w, img/kalendarz-trojdzielny-800.webp 800w" sizes="(max-width:760px) 46vw, 14vw" width="420" height="420" loading="lazy" alt="Kalendarz trójdzielny z wypukłą główką"></figure><div>Trójdzielne<small>LUX i ekonomiczne</small></div></a>
+   <a class="kal-k zn jasny" href="#kontakt"><figure><img src="img/kalendarz-jednodzielny-420.webp" srcset="img/kalendarz-jednodzielny-420.webp 420w, img/kalendarz-jednodzielny-800.webp 800w" sizes="(max-width:760px) 46vw, 14vw" width="420" height="420" loading="lazy" alt="Kalendarz jednodzielny"></figure><div>Jednodzielne<small>LUX i ekonomiczne</small></div></a>
+   <a class="kal-k zn jasny" href="#kontakt"><figure><img src="img/kalendarz-ksiazkowy-420.webp" srcset="img/kalendarz-ksiazkowy-420.webp 420w, img/kalendarz-ksiazkowy-800.webp 800w" sizes="(max-width:760px) 46vw, 14vw" width="420" height="420" loading="lazy" alt="Kalendarz książkowy z logo"></figure><div>Książkowe<small>z logo na okładce</small></div></a>
+   <a class="kal-k zn jasny" href="#kontakt"><figure><img src="img/kalendarz-spiralowany-420.webp" srcset="img/kalendarz-spiralowany-420.webp 420w, img/kalendarz-spiralowany-800.webp 800w" sizes="(max-width:760px) 46vw, 14vw" width="420" height="420" loading="lazy" alt="Kalendarz spiralowany"></figure><div>Spiralowane<small>ścienne</small></div></a>
+  </div>
+ </div>
+</section>
+
+<section class="sek szara" id="zamowienie" aria-labelledby="h-zam">
+ <div class="wrap zam">
+  <div class="zam-tekst">
+   <h2 id="h-zam">Cena widoczna od razu, bez czekania na wycenę</h2>
+   <p>Każdy produkt ma cennik nakładów. Wybierasz ilość, widzisz kwotę brutto i datę wysyłki, a plik wgrywasz po złożeniu zamówienia.</p>
+   <ol class="kroki">
+    <li><div><b>Parametry</b><span>format, papier, zadruk, uszlachetnienie</span></div></li>
+    <li><div><b>Nakład i cena</b><span>tabela cen dla każdej ilości, dostawa gratis</span></div></li>
+    <li><div><b>Plik</b><span>sprawdzamy projekt graficzny bezpłatnie przed drukiem</span></div></li>
+    <li><div><b>Wysyłka</b><span>pod wskazany adres albo do Paczkomatu, w całej Polsce i Europie</span></div></li>
+   </ol>
+  </div>
+  <form class="konf zn" id="konf" onsubmit="return false" aria-labelledby="h-konf">
+   <h3 id="h-konf">Ulotki reklamowe A6</h3>
+   <div class="konf-par"><span>105x148 mm</span><span>kreda mat 350 g</span><span>jednostronny kolor</span><span>bez foliowania</span></div>
+   <table class="nak">
+    <thead><tr><th>Nakład</th><th>Cena brutto</th></tr></thead>
+    <tbody>
+     <tr><td colspan="2"><label><input type="radio" name="n" value="62,68" data-n="50"><span>50 szt.</span><b>62,68 zł</b></label></td></tr>
+     <tr><td colspan="2"><label><input type="radio" name="n" value="87,24" data-n="100"><span>100 szt.</span><b>87,24 zł</b></label></td></tr>
+     <tr><td colspan="2"><label><input type="radio" name="n" value="145,43" data-n="200"><span>200 szt.</span><b>145,43 zł</b></label></td></tr>
+     <tr><td colspan="2"><label><input type="radio" name="n" value="325,79" data-n="500" checked><span>500 szt.</span><b>325,79 zł</b></label></td></tr>
+     <tr><td colspan="2"><label><input type="radio" name="n" value="575,34" data-n="1000"><span>1000 szt.</span><b>575,34 zł</b></label></td></tr>
+    </tbody>
+   </table>
+   <div class="suma"><div>Razem za <span id="ile">500 szt.</span>, dostawa 0 zł<strong id="kwota">325,79 zł</strong></div><button class="btn" type="button">Dodaj do koszyka</button></div>
+   <small>Ceny z cennika sklepu z 23.11.2026. Warunkiem wysyłki jest opłacenie zamówienia i dogranie poprawnego pliku do godz. 12:00.</small>
+  </form>
+ </div>
+</section>
+
+<section class="sek" id="kostki" aria-labelledby="h-kos">
+ <div class="wrap kostki">
+  <figure class="zn">
+   <picture><source media="(max-width:760px)" srcset="img/kostki-m.webp"><img src="img/kostki-1200.webp" srcset="img/kostki-1200.webp 1200w, img/kostki-1920.webp 1920w" sizes="(max-width:1180px) 92vw, 56vw" width="1200" height="357" loading="lazy" alt="Kostki mikrofonowe z logo stacji radiowych i klubu sportowego"></picture>
+  </figure>
+  <div class="kostki-t">
+   <h2 id="h-kos">Kostki mikrofonowe z logo</h2>
+   <p>Własna produkcja, dowolny rozmiar, pełna personalizacja. Kostki dla radia, telewizji i na eventy, z rabatem przy zamówieniach hurtowych. Pojedyncza kostka od 121,77 zł brutto.</p>
+   <div class="cyt">„Zamówiłem kostkę mikrofonową do naszego studia i jestem zadowolony! Wyraźny nadruk, solidna konstrukcja, a do tego szybka realizacja zamówienia w opcji expres na wielki plus.”<b>Łukasz Rozwalka, 10.07.2024</b></div>
+  </div>
+ </div>
+</section>
+
+<section class="sek szara" id="b2b" aria-labelledby="h-b2b">
+ <div class="wrap b2b">
+  <div class="b2b-l">
+   <h2 id="h-b2b">Rabaty dla agencji, grafików i wydawnictw</h2>
+   <p>Często drukujemy dla firm, które same zamawiają druk dla swoich klientów. Napisz, czym się zajmujesz, a przygotujemy warunki współpracy i stały rabat.</p>
+   <ul class="lista ciemna"><li>stałe ceny dla powtarzalnych zleceń</li><li>nietypowe zlecenia po indywidualnej wycenie</li></ul>
+   <a class="btn" href="#kontakt">Zapytaj o rabat</a>
+  </div>
+  <div class="b2b-g">
+   <div><h3>Agencje reklamowe</h3><p>Plakaty, ulotki, rollupy i materiały na kampanie, drukowane szybko i w powtarzalnej jakości.</p></div>
+   <div><h3>Graficy</h3><p>Twój projekt w druku, który da się polecić klientowi. Pliki sprawdzamy przed drukiem.</p></div>
+   <div><h3>Wydawnictwa</h3><p>Krótkie serie i personalizacja na nowoczesnych maszynach cyfrowych.</p></div>
+   <div><h3>Fotografowie</h3><p>Wydruki zdjęć, portfolio i plakaty wielkoformatowe.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sek" id="opinie" aria-labelledby="h-op">
+ <div class="wrap">
+  <div class="glowa">
+   <h2 id="h-op">Opinie klientów</h2>
+   <div class="strz"><button type="button" data-k="-1" aria-label="Poprzednie opinie"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M16 10H5M9 5l-5 5 5 5"/></svg></button><button type="button" data-k="1" aria-label="Następne opinie"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 10h11M11 5l5 5-5 5"/></svg></button></div>
+  </div>
+  <div class="pas" id="pas">
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Polecam serdecznie usługi tej firmy! Pełen profesjonalizm, kostki rewelacyjne!</p><div><b>Jarosław Kurzaj</b>11.10.2025</div></article>
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Zamówione kalendarze dotarły bardzo szybko, jakość wykonania jest bardzo estetyczna. Polecam gorąco</p><div><b>Adrianna Zawieja</b>16.10.2024</div></article>
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Polecam serdecznie! Konsultant profesjonalnie doradził mi odnośnie wyboru produktu, efekt był niebywały!</p><div><b>Franciszek Czepliński</b>15.08.2024</div></article>
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Bardzo profesjonalny wygląd i trwałość kostek! Świetnie sprawdza się podczas eventów, które organizujemy dla klientów, jesteśmy stałym klientem!</p><div><b>Patrycja Wajchrzak</b>02.04.2024</div></article>
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Rollupy pierwsza klasa. Zamówiliśmy w piątek popołudniu, w poniedziałek rano dojechały na halę targową. Gorrrąco polecamy!</p><div><b>Justyna Woźniak</b>03.07.2023</div></article>
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Ekspresowo wydrukowali dla nas plakaty, które były już kolejnego dnia w naszych rękach! Szczerze polecam!</p><div><b>Radek / Visual Design</b>20.02.2023</div></article>
+   <article class="op zn"><span class="gw" aria-label="5 na 5">★★★★★</span><p>Fachowa obsługa i doradztwo oraz fantastyczna jakość druku. Zamówienie zrealizowane błyskawicznie! Zdecydowanie polecam!</p><div><b>Monika Czemplińska</b>01.08.2024</div></article>
+  </div>
+ </div>
+</section>
+
+<section class="sek szara" id="kontakt" aria-labelledby="h-kon">
+ <div class="wrap kon">
+  <div>
+   <h2 id="h-kon">Indywidualna wycena i próbki</h2>
+   <div class="kon-dane">
+    <div><small>Telefon, biuro czynne 8:00-15:00</small><a href="tel:+48731977433">+48 731 977 433</a></div>
+    <div><small>E-mail</small><a href="mailto:kontakt@drukujesie.pl">kontakt@drukujesie.pl</a></div>
+    <div><small>Adres</small>Borecka 6, 63-860 Pogorzela</div>
+   </div>
+   <div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=Borecka%206%2C%2063-860%20Pogorzela&amp;z=14&amp;output=embed" aria-label="Mapa dojazdu"></div>
+  </div>
+  <form class="form" onsubmit="event.preventDefault();this.querySelector('.info').textContent='To podgląd strony, formularz nie wysyła wiadomości.'">
+   <h3>Napisz do nas</h3>
+   <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+   <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+   <label class="pel">Czego dotyczy zapytanie<select name="temat"><option>Wycena nietypowego zlecenia</option><option>Darmowe próbki</option><option>Kalendarze 2027</option><option>Współpraca B2B i rabat</option><option>Inne pytanie</option></select></label>
+   <label class="pel">Treść wiadomości<textarea name="tresc" required></textarea></label>
+   <label class="zgoda"><input type="checkbox" required> Zgadzam się na przetwarzanie danych w celu odpowiedzi na zapytanie.</label>
+   <button class="btn" type="submit">Wyślij zapytanie</button>
+   <p class="info" aria-live="polite"></p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="wrap">
+  <div class="st-g">
+   <div>
+    <a class="logo" href="#" aria-label="Drukujesie.pl"><svg viewBox="0 0 250 52" aria-hidden="true"><text x="9" y="40" font-family="Saira, sans-serif" font-weight="800" font-size="42" letter-spacing="-1.2" fill="#3FA2EA">Drukuje<tspan fill="#fff">sie</tspan></text><circle cx="35" cy="7.5" r="4.2" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M2.5 40.5l6 6M8.5 40.5l-6 6" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg></a>
+    <p style="margin-top:16px;max-width:360px">Drukarnia internetowa z darmową dostawą w Polsce. Borecka 6, 63-860 Pogorzela.</p>
+   </div>
+   <div><h4>Produkty</h4><ul><li><a href="#produkty">Ulotki i plakaty</a></li><li><a href="#produkty">Wizytówki</a></li><li><a href="#kalendarze">Kalendarze 2027</a></li><li><a href="#produkty">Rollupy i flagi</a></li><li><a href="#kostki">Kostki mikrofonowe</a></li></ul></div>
+   <div><h4>Dla klienta</h4><ul><li><a href="#zamowienie">Jak przygotować projekt</a></li><li><a href="#zamowienie">Terminy realizacji</a></li><li><a href="#zamowienie">Wysyłka i płatności</a></li><li><a href="#kontakt">Reklamacje i zwroty</a></li><li><a href="#kontakt">Regulamin sklepu</a></li></ul></div>
+   <div><h4>Kontakt</h4><ul><li><a href="tel:+48731977433">+48 731 977 433</a></li><li><a href="mailto:kontakt@drukujesie.pl">kontakt@drukujesie.pl</a></li><li><a href="https://www.facebook.com/drukujesiepl" rel="noopener">Facebook</a></li><li><a href="https://www.instagram.com/drukujesie.pl/" rel="noopener">Instagram</a></li></ul></div>
+  </div>
+  <div class="st-dol"><span>© 2026 Drukujesie.pl, ECSPRO Kacper Walkowiak</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=drukujesie.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+<script>
+(function(){
+ var b=document.querySelector('.burger'),m=document.getElementById('menu');
+ b.addEventListener('click',function(){var o=m.classList.toggle('otw');b.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':''});
+ m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('otw');b.setAttribute('aria-expanded','false');document.body.style.overflow=''}});
+ var k=document.getElementById('konf');
+ k.addEventListener('change',function(e){var i=e.target;document.getElementById('kwota').textContent=i.value+' zł';document.getElementById('ile').textContent=i.dataset.n+' szt.'});
+ // przeciąganie myszą pasów przewijanych
+ document.querySelectorAll('.pas,.siatka,.kal-sw').forEach(function(p){
+  var x0,s0,ruch=false,wcis=false;
+  p.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse'||p.scrollWidth<=p.clientWidth)return;wcis=true;ruch=false;x0=e.clientX;s0=p.scrollLeft});
+  window.addEventListener('pointermove',function(e){if(!wcis)return;var d=e.clientX-x0;if(Math.abs(d)>5){ruch=true;p.classList.add('ciag')}if(ruch)p.scrollLeft=s0-d});
+  window.addEventListener('pointerup',function(){if(!wcis)return;wcis=false;p.classList.remove('ciag')});
+  p.addEventListener('click',function(e){if(ruch){e.preventDefault();e.stopPropagation();ruch=false}},true);
+  p.addEventListener('dragstart',function(e){e.preventDefault()});
+ });
+ var pas=document.getElementById('pas');
+ document.querySelectorAll('.strz button').forEach(function(x){x.addEventListener('click',function(){pas.scrollBy({left:x.dataset.k*pas.clientWidth*.8,behavior:'smooth'})})});
+ // podświetlenie bieżącej sekcji w menu
+ var linki=[].slice.call(m.querySelectorAll('a'));
+ var io=new IntersectionObserver(function(w){w.forEach(function(e){if(e.isIntersecting){linki.forEach(function(a){a.toggleAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});
+ ['produkty','kalendarze','zamowienie','b2b','opinie','kontakt'].forEach(function(id){io.observe(document.getElementById(id))});
+ // mapa dopiero przy przewinięciu
+ var mp=document.getElementById('mapa');
+ new IntersectionObserver(function(w,o){if(w[0].isIntersecting){var f=document.createElement('iframe');f.src=mp.dataset.src;f.title='Mapa: Borecka 6, Pogorzela';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mp.appendChild(f);o.disconnect()}},{rootMargin:'300px'}).observe(mp);
+})();
+</script>
+</body>
+</html>
