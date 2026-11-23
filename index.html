@@ -271,7 +271,7 @@ section{scroll-margin-top:var(--hh)}
 </header>
 
 <main>
-<section class="hero" aria-labelledby="h1">
+<section class="hero" id="start" aria-labelledby="h1">
  <div class="hero-foto">
   <picture>
    <source media="(max-width:760px)" srcset="img/hero-m-800.webp 800w, img/hero-m-1200.webp 1200w" sizes="100vw">
@@ -475,8 +475,8 @@ section{scroll-margin-top:var(--hh)}
  document.querySelectorAll('.strz button').forEach(function(x){x.addEventListener('click',function(){pas.scrollBy({left:x.dataset.k*pas.clientWidth*.8,behavior:'smooth'})})});
  // podświetlenie bieżącej sekcji w menu
  var linki=[].slice.call(m.querySelectorAll('a'));
- var io=new IntersectionObserver(function(w){w.forEach(function(e){if(e.isIntersecting){linki.forEach(function(a){a.toggleAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});
- ['produkty','kalendarze','zamowienie','b2b','opinie','kontakt'].forEach(function(id){io.observe(document.getElementById(id))});
+ var io=new IntersectionObserver(function(w){w.forEach(function(e){if(e.isIntersecting){linki.forEach(function(a){a.toggleAttribute('aria-current',a.getAttribute('href')==='#'+(e.target.id==='start'?'produkty':e.target.id))})}})},{rootMargin:'-45% 0px -50% 0px'});
+ ['start','produkty','kalendarze','zamowienie','b2b','opinie','kontakt'].forEach(function(id){io.observe(document.getElementById(id))});
  // mapa dopiero przy przewinięciu
  var mp=document.getElementById('mapa');
  new IntersectionObserver(function(w,o){if(w[0].isIntersecting){var f=document.createElement('iframe');f.src=mp.dataset.src;f.title='Mapa: Borecka 6, Pogorzela';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mp.appendChild(f);o.disconnect()}},{rootMargin:'300px'}).observe(mp);
